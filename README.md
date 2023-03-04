@@ -8,7 +8,7 @@ Foi pensado e idealizado para ser o primeiro projeto em contato com o React.  E 
 <a href='https://react-migrando-ts.vercel.app/' target='_blank'><img src="screencapture.png#vitrinedev" alt="Imagem do Organo" width="70%"></a>
 
 
-## Técnicas e skill desenvovidas no curso
+## Técnicas e skills desenvolvidas no curso.
 
 - `React`
 - `React Hooks`
