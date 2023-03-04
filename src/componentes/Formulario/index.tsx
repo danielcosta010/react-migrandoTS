@@ -7,8 +7,7 @@ import './Formulario.css';
 
 interface FormularioProps {
     aoColaboradorCadastrado: (colaborador: IColaborador) => void
-    times: string[]
-    
+    times: string[]   
 }
 
 const Formulario = ({ aoColaboradorCadastrado, times }: FormularioProps) => {
@@ -17,6 +16,7 @@ const Formulario = ({ aoColaboradorCadastrado, times }: FormularioProps) => {
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
     const [time, setTime] = useState('')
+    const [data, setData] = useState('')
     
 
     const aoSalvar = (evento: React.FormEvent<HTMLFormElement>) => {
@@ -25,12 +25,14 @@ const Formulario = ({ aoColaboradorCadastrado, times }: FormularioProps) => {
             nome,
             cargo,
             imagem,
-            time
+            time,
+            data
         })
         setNome('')
         setCargo('')
         setImagem('')
         setTime('')
+        setData('')
     }
 
     return (
@@ -56,6 +58,13 @@ const Formulario = ({ aoColaboradorCadastrado, times }: FormularioProps) => {
                     placeholder="Digite o endereço da imagem" 
                     valor={imagem}
                     aoAlterado={valor => setImagem(valor)}
+                />
+                <CampoTexto 
+                    label="Digite a data de entrada no time"
+                    placeholder= ''
+                    valor= {data}
+                    aoAlterado={valor => setData(valor)}
+                    tipo='date'
                 />
                 
                 <ListaSuspensa
