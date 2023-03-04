@@ -1,11 +1,11 @@
 # Organo
 
-## Curso da Alura React-migrando para o TypeScript. 
+## Curso da Alura React-migrando para o TypeScript. <a href='https://react-migrando-ts.vercel.app/' target='_blank'>Acesse o projeto</a>
 
 O Organo é aplicação desenvolvida no curso <a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript" target="_blank">React: desenvolvendo com JavaScript</a>. 
 Foi pensado e idealizado para ser o primeiro projeto em contato com o React.  E neste curso migrado para react-typescript.
 
-<img src="screencapture.png#vitrinedev" alt="Imagem do Organo" width="70%">
+<a href='https://react-migrando-ts.vercel.app/' target='_blank'><img src="screencapture.png#vitrinedev" alt="Imagem do Organo" width="70%"></a>
 
 
 ## Técnicas e skill desenvovidas no curso
